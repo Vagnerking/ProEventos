@@ -8,13 +8,13 @@ using ProEventos.API.Models;
 namespace ProEventos.API.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
-    public class EventoController : ControllerBase
+    [Route("api/v1/eventos")]
+    public class EventosController : ControllerBase
     {
 
         private readonly DataContext _context;
 
-        public EventoController(DataContext context)
+        public EventosController(DataContext context)
         {
             _context = context;
 
