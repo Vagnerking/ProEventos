@@ -1,18 +1,21 @@
+<br>
 <h2>Eventos</h2>
 <hr>
-
-<form action="" class="form-inline">
+<div class="form-inline">
   <div class="form-group mb-2">
-   <input type="text" class="form-control mr-2" placeholder="Buscar">
-   <button class="btn btn-outline-success">Buscar</button>
+    <label class="mr-2">Filtro: </label>
+   <input type="text" class="form-control mr-2" placeholder="Buscar" [(ngModel)]="filtroLista">
   </div>
-</form>
-
-<table class="table table-striped">
+</div>
+<table class="table table-striped" style="margin-top: 5px;">
   <thead class="thead-dark">
     <tr>
+      <th>
+        <button type="button" class="btn btn-outline-light btn-sm" (click)="btnShowFunc()">
+          {{showImg ? 'Exibir' : 'Ocultar'}}
+        </button>
+      </th>
       <th>#</th>
-      <th>Imagem</th>
       <th>Tema</th>
       <th>Local</th>
       <th>Data</th>
@@ -21,20 +24,32 @@
       <th>Options</th>
     </tr>
   </thead>
-  <tbody>
-    <tr *ngFor="let evento of eventos">
+  <tbody *ngIf="eventos && eventos.length">
+    <tr *ngFor="let evento of eventosFiltrados">
+      <td>
+        <img [collapse]="showImg" [isAnimated]="true"
+        src="/assets/{{evento.imagemURL}}" alt="Error"
+         [style.width.px]="widthImg" [style.margin.px]="marginImg"
+         >
+      </td>
       <td>{{evento.eventoId}}</td>
-      <td>{{evento.imagemURL}}</td>
       <td>{{evento.tema}}</td>
       <td>{{evento.local}}</td>
       <td>{{evento.dataEvento}}</td>
       <td>{{evento.qtdPessoas}}</td>
       <td>{{evento.lote}}</td>
       <td>
-        <button type="button" class="btn btn-warning mr-2" style="color: white;">Editar</button>
-        <button type="button" class="btn btn-danger">Excluir</button>
+        <button type="button" class="btn btn-primary btn-sm mr-2">Editar</button>
+        <button type="button" class="btn btn-danger btn-sm">Excluir</button>
       </td>
     </tr>
   </tbody>
+  <tfoot *ngIf="!eventos.length">
+    <tr>
+      <td colspan="8" class="text-center">
+        <h4>Nenhum evento encontrado</h4>
+      </td>
+    </tr>
+  </tfoot>
 </table>
 
