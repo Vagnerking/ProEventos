@@ -1,0 +1,12 @@
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Application.deps.json
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Application.dll
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\bin\Debug\net5.0\ref\ProEventos.Application.dll
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Application.pdb
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csprojAssemblyReference.cache
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.AssemblyInfoInputs.cache
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.AssemblyInfo.cs
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.CoreCompileInputs.cache
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.dll
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ref\ProEventos.Application.dll
+C:\Users\VAGNER ARAÚJO\Documents\Curso ASPNET\ProEventos\back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.pdb
